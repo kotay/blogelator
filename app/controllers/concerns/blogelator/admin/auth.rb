@@ -11,9 +11,9 @@ module Blogelator
       end
 
       def blogelator_current_user
-        respond_to?(:current_user) ? current_user : nil
+        Blogelator.user_class.constantize.find(current_user)
       end
-
+      
       def current_ability
         @current_ability ||= Blogelator::Ability.new(blogelator_current_user)
       end
