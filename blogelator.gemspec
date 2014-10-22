@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency "cancan", "~> 1.6"
   s.add_dependency "deface", "~> 1.0"
   s.add_dependency "ember-rails", "~> 0.14"
-  s.add_dependency "jquery-rails", "~> 4.0"
+  s.add_dependency "jquery-rails"
   s.add_dependency "kaminari", "~> 0.15"
   s.add_dependency "local_time", "~> 0.3"
   s.add_dependency "pygments.rb", "~> 0.5"
