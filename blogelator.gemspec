@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_dependency "pygments.rb", "~> 0.5"
   s.add_dependency "rails", "~> 4.0"
   s.add_dependency "redcarpet", "~> 3.1"
-  s.add_dependency "sass-rails", "~> 5.0", ">= 4.0.2"
+  s.add_dependency "sass-rails", "~> 5.0"
   s.add_dependency "uglifier", "~> 2.4"
 
   s.add_development_dependency "awesome_print", "~> 1.2"
